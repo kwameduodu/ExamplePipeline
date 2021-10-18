@@ -12,9 +12,8 @@
 	<groupId>com.revature</groupId>
 	<artifactId>DnDManagementSystem</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>DnDManagementSystem</name>
-	 <packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 	
