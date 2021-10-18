@@ -1,0 +1,130 @@
+{
+    "characterSheetId": 1,
+    "name": "Corus",
+    "campaign": "Seattle",
+    "character": {
+        "characterId": 1,
+        "name": "Corus",
+        "campaign": {
+            "campaignId": 1,
+            "name": "Seattle",
+            "playerCount": 1,
+            "users": [
+                {
+                    "playerId": 1,
+                    "username": "Laxus2",
+                    "password": "password",
+                    "accountType": "player",
+                    "campaigns": [
+                        1
+                    ],
+                    "characters": [
+                        1
+                    ]
+                }
+            ],
+            "characters": [
+                1
+            ],
+            "dungeonMasters": []
+        },
+        "characterSheet": 1,
+        "dungeonMaster": null,
+        "user": 1
+    },
+    "abilitySheet": {
+        "abilitySheetId": 1,
+        "characterSheet": 1,
+        "abilities": []
+    },
+    "actionSheet": {
+        "actionSheetId": 1,
+        "characterSheet": 1,
+        "actions": []
+    },
+    "featureSheet": {
+        "featureSheetId": 1,
+        "characterSheet": 1,
+        "features": []
+    },
+    "inventorySheet": {
+        "inventorySheetId": 1,
+        "characterSheet": 1,
+        "items": [
+            {
+                "itemId": 1,
+                "name": "Speed Potion",
+                "weight": "2",
+                "value": "100",
+                "description": "run fast",
+                "inventorySheet": 1
+            }
+        ]
+    },
+    "moneySheet": {
+        "moneySheetId": 1,
+        "characterSheet": 1,
+        "money": []
+    },
+    "proficiencySheet": {
+        "proficiencySheetId": 1,
+        "characterSheet": 1,
+        "proficiencies": []
+    },
+    "skillSheet": {
+        "skillSheetId": 1,
+        "characterSheet": 1,
+        "skills": []
+    },
+    "spellSheet": {
+        "spellSheetId": 1,
+        "spellcastingClass": null,
+        "spellcastingAbility": null,
+        "spellSaveDc": 0,
+        "spellAttackBonus": 0,
+        "level1SlotsTotal": 0,
+        "level2SlotsTotal": 0,
+        "level3SlotsTotal": 0,
+        "level4SlotsTotal": 0,
+        "level5SlotsTotal": 0,
+        "level6SlotsTotal": 0,
+        "level7SlotsTotal": 0,
+        "level8SlotsTotal": 0,
+        "level9SlotsTotal": 0,
+        "level1SlotsExpended": 0,
+        "level2SlotsExpended": 0,
+        "level3SlotsExpended": 0,
+        "level4SlotsExpended": 0,
+        "level5SlotsExpended": 0,
+        "level6SlotsExpended": 0,
+        "level7SlotsExpended": 0,
+        "level8SlotsExpended": 0,
+        "level9SlotsExpended": 0,
+        "characterSheet": 1,
+        "spells": []
+    },
+    "vitalsSheet": {
+        "vitalsSheetId": 1,
+        "clazz": null,
+        "level": 0,
+        "player": null,
+        "race": null,
+        "alignment": null,
+        "armorClass": 0,
+        "initiative": null,
+        "currentHitDice": 0,
+        "hitDice": 0,
+        "currentHp": 0,
+        "totalHp": 0,
+        "healthPercent": 0,
+        "speed": null,
+        "deathSaveSuccess": 0,
+        "deathSaveFailure": 0,
+        "characterSheet": 1
+    },
+    "traitSheet": {
+        "traitSheetId": 1,
+        "characterSheet": 1,
+        "traits": []
+    }
+}
