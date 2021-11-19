@@ -1,58 +1,17 @@
 package com.revature.service;
 
+import java.util.List;
+
+import com.revature.domain.Role;
+import com.revature.domain.User;
 
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+public interface UserService {
 
-import com.revature.models.User;
-import com.revature.repositories.UserRepository;
-
-
-@Service("userService")
-public class UserService {
-	private UserRepository userRepository;
-
-	@Autowired
-	public UserService(UserRepository userRepository) {
-
-		this.userRepository = userRepository;
-	}
-
-	public void setUserRepository(UserRepository userRepository) {
-		this.userRepository = userRepository;
-	}
-
-	public void save(User user) {
-		this.userRepository.save(user);
-	}
-
-	public User findByUsername(String username) {
-		return this.userRepository.findByUsername(username);
-	}
-
-	public User findByUsernameAndPassword(String username, String password) {
-		User user = this.userRepository.findByUsernameAndPassword(username, password);
-		if (user == null) {
-			//TODO: Message to send to View. Either here or UserController
-			return null; 
-		}
-		else
-			return user;
-	}
+	User saveUser (User user);
+	Role saveRole (Role role);
+	void addRoleToUser(String username, String roleName);
+	User getUser(String username);
+	List<User>getUsers();
 	
-	
-	  public User findById(int id) { 
-		  return this.userRepository.getById(id);
-	  
-	  }
-	 
-
-	/*
-	 * public List<User> findAll(){ return this.userRepository.findAll(); }
-	 * 
-	 * public void save(User user) { this.userRepository.save(user); }
-	 * 
-	 * 
-	 */
 }
